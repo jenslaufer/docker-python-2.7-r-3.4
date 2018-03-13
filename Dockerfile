@@ -11,5 +11,9 @@ RUN apt-get update && apt-get -y upgrade
 
 RUN apt-get install -y r-base r-base-dev 
 
+RUN apt-get install -y gcc
+RUN apt-get install -y libcurl4-openssl-dev
+RUN apt-get install -y libssl-dev libsasl2-dev
+
 RUN pip install -r requirements.txt
 RUN Rscript requirements.r
