@@ -1,1 +1,1 @@
-docker build -t python-2.7-r-3.4 .
+docker build -t python-r .
