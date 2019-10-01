@@ -1,3 +1,3 @@
-# docker-python-2.7-r-3.4
+# docker-python
 
-This is a docker container for data science with python 2.7.x and R 3.4.x
+This is a docker container for data science with Python and R
